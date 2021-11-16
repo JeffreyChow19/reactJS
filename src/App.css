@@ -1,0 +1,168 @@
+body{
+  font-family: 'Franklin Gothic';
+  background-color: rgb(12, 10, 29);
+  color : white;
+}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  background-color: rgb(12, 10, 29);
+}
+
+.navbar .title{
+  float : left;
+  padding-left : 30px;
+}
+
+.navbar .title h3{
+  color:salmon;
+  font-size: 1.25em;
+}
+
+.navbar .pageButton{
+  float : right;
+  padding-right : 50px;
+  padding-top:5px;
+}
+
+.navbar button{
+ color:white;
+ background-color:transparent;
+ border:0;
+}
+
+.navbar button:hover{
+  color:rgb(202, 202, 202);
+ }
+
+.overviews{
+  display: none;
+  padding : 70px 50px 0px 25px;
+  
+}
+
+.overviews .filmPic img{
+  width: 250px;
+}
+
+.overviews .specs{
+  padding : 0px 10px 0px 30px;
+}
+
+.overviews .judul{
+  font-size : 2.5em;
+  font-weight: 700;
+}
+
+.overviews button{
+  float:right;
+  border:0;
+}
+
+.overviews button:hover{
+  background-color: rgb(168, 168, 168);
+}
+
+.overviews .genre{
+  font-style: italic;
+  
+}
+
+.overviews .text{
+  text-align: justify;
+}
+
+
+
+
+
+
+.renderFilms{
+  margin-top:40px;
+  display:inline-flex;
+  
+  
+}
+.films{  
+  padding:30px;
+}
+
+.films img{
+ width:300px;
+ height : auto;
+ 
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.buttons button{
+  margin:15px 10px;
+  padding:3px;
+  width: 120px;
+  height : 35px;
+  background-color: red;
+  color:white;
+  border-radius:20px;
+  border:3px solid white;
+}
+
+/*  
+.filmfilm{
+  display: flex;
+}
+
+.filmPic{
+  width : 10%;
+  padding-left:25px;
+  
+}
+
+.filmPic img{
+  width : 100%;
+  height: auto;
+}
+
+.specs{
+  width : 80%;
+  padding-left: 30px;
+}
+
+.judul{
+  font-size : 2.5em;
+  font-weight: 700;
+
+}
+
+.info{
+  font-style: italic;
+  
+}
+
+.text{
+  text-align: justify;
+}
+
+.wishlist{
+  padding-right: 15px;
+}
+
+.wishlist button{
+  height: auto;
+  padding : 8px;
+  border-radius: 5px 30px; 
+  border : greenyellow 2px solid;
+  background : unset;
+  color : greenyellow;
+
+}
+
+.wishlist button:hover{
+  background-color:rgb(224, 222, 222);
+  color : black;
+  
+  border-color : 0;
+}  */
